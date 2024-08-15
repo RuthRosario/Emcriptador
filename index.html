@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Personalizado</title>
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="./img/Logo-1.png" alt="Logo" class="logo">
+    </header>
+    <div id="container">
+        <section class="input-section">
+            <textarea id="inputText" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="info">
+                <img src="./img/bi_exclamation-circle-fill-1.png" alt="Icono de advertencia">
+                <p id="warning">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="buttons">
+                <button id="encryptButton" class="btn-primary">Encriptar</button>
+                <button id="decryptButton" class="btn-secondary">Desencriptar</button>
+            </div>
+        </section>
+        <section class="output-section">
+            <img id="muneco" src="./img/Muñeco.png" alt="Muñeco">
+            <div id="outputMessage">Ningún mensaje fue encontrado</div>
+            <div id="outputMessage1">Ingresa el texto que desees encriptar o desencriptar.</div>
+            <button id="copyButton" style="display: none;">Copiar</button>
+        </section>
+    </div>
+    <footer class="pie-pagina">
+        <p>© 2024 Desarrollado por Ruth Esther Rosario Paulino</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
